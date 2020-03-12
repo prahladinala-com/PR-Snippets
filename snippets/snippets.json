@@ -1,0 +1,81 @@
+{
+    "Html 5 Startup Template":{
+        "prefix": "!prh",
+        "body": [
+            "<!DOCTYPE html>",
+            "<html lang=\"en\">",
+            "<head>",    
+                "<meta charset=\"UTF-8\">",
+                "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">",    
+                "<title>${1:Title}</title>",
+            "</head>",
+            "<body>",    
+                "$0",
+            "</body>",
+            "</html>"
+        ],
+        "description": "Create HTML 5 Starter Template"
+    },
+    "Html 5 and Css 3 Startup Template":{
+        "prefix": "!prhc",
+        "body": [
+            "<!DOCTYPE html>",
+            "<html lang=\"en\">",
+            "<head>",    
+                "<meta charset=\"UTF-8\">",
+                "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">", 
+                "<link rel = \"stylesheet\" type = \"text/css\" href = \"style.css\" />",
+                "<title>${1:Title}</title>",
+            "</head>",
+            "<body>",    
+                "$0",
+            "</body>",
+            "</html>"
+        ],
+        "description": "Create HTML 5 and CSS 3 Starter Template"
+    },
+    "Bootstrap Startup Template":{
+        "prefix": "!prhbt",
+        "body": [
+            "<!DOCTYPE html>",
+            "<html lang=\"en\">",
+            "<head>",    
+                "<meta charset=\"UTF-8\">",
+                "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">",
+                "<link rel=\"stylesheet\" href=\"https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css\" integrity=\"sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u\" crossorigin=\"anonymous\">",
+                "<link rel=\"stylesheet\" href=\"https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css\" integrity=\"sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp\" crossorigin=\"anonymous\">",
+                "<title>${1:Title}</title>",
+            "</head>",
+            "<body>",    
+                "$0",
+                "<script src=\"https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js\" integrity=\"sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa\" crossorigin=\"anonymous\"></script>",
+            "</body>",
+            "</html>"
+        ],
+        "description": "Bootstrap 4 Starter Template"
+    },
+    "HTML, CSS, JavaScript and Bootstrap Startup Template":{
+        "prefix": "!prhcjb",
+        "body": [
+            "<!DOCTYPE html>",
+            "<html lang=\"en\">",
+            "<head>",    
+                "<meta charset=\"UTF-8\">",
+                "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">",
+                "<link rel=\"stylesheet\" href=\"https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css\" integrity=\"sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u\" crossorigin=\"anonymous\">",
+                "<link rel=\"stylesheet\" href=\"https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css\" integrity=\"sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp\" crossorigin=\"anonymous\">",
+                "<link rel = \"stylesheet\" type = \"text/css\" href = \"style.css\" />",
+                "<title>${1:Title}</title>",
+            "</head>",
+            "<body>",    
+                "$0",
+                "<script src=\"https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js\" integrity=\"sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa\" crossorigin=\"anonymous\"></script>",
+                "<script type=\"text/javascript\" src=\"script.js\"></script>",
+            "</body>",
+            "</html>"
+        ],
+        "description": "HTML, CSS, JavaScript and Bootstrap 4 Starter Template"
+    }
+
+
+}
